@@ -75,4 +75,6 @@ os.rename('test.txt', 'demo.txt')
 print(os.stat('demo.txt'))
 print(os.stat('demo.txt').st_mtime)  # Modified time-stamp
 ```
+Part 2: [Python OS Module: Part 2](os_module_2.md) 
+
 <br>
