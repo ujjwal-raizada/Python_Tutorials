@@ -11,7 +11,7 @@ class Employee:
         self.pay = pay
 
     def __repr__(self):
-		return "Employee('{}', '{}', {})".format(self.first, self.last, self.pay)
+        return "Employee('{}', '{}', {})".format(self.first, self.last, self.pay)
 ```
 
 ### main.py
@@ -33,7 +33,7 @@ c.execute("""CREATE TABLE employees (
 def insert_emp(emp):
     with conn:
         c.execute("INSERT INTO employees VALUES (:first, :last, :pay)", 
-        	{'first': emp.first, 'last': emp.last, 'pay': emp.pay})
+            {'first': emp.first, 'last': emp.last, 'pay': emp.pay})
 
 
 def get_emps_by_name(lastname):

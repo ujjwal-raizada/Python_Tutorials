@@ -33,10 +33,10 @@ syntax: c.execute(<SQL Command>)
 
 ```
 c.execute(""" CREATE TABLE employees (
-			first TEXT,
+            first TEXT,
             last TEXT,
             pay INTEGER
-			) """)
+            ) """)
             
 conn.commit()  # The changes created by the statement will become visible after this command.
 conn.close()  # Closing the connection.
@@ -102,7 +102,7 @@ last_name = "Delson"
 pay = 75000
 
 c.execute("INSERT INTO employees VALUES (:first, :last, :pay)", 
-	{'first': first_name, 'last': last_name, 'pay': pay})
+    {'first': first_name, 'last': last_name, 'pay': pay})
     
 # Second Argument is a dictionary here.
 ```
