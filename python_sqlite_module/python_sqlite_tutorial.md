@@ -111,7 +111,7 @@ The second method according to me is lot more readable as compared to the first 
 
 
 ## Note
-1. We can use in memory database when practicing, as it will create a new instance at every run, so we won't get errors <br>
+1. We can use in memory database when practising, as it will create a new instance at every run, so we won't get errors <br>
 like ```'this table already exists'``` etc.
 2. Official Python Docs: [Python SQLite3](https://docs.python.org/3.8/library/sqlite3.html)
 3. Official SQLite Docs: [SQLite](https://www.sqlite.org/index.html)

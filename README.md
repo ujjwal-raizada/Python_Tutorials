@@ -8,4 +8,5 @@
 * Tutorial: [Python SQLite Tutorial](python_sqlite_module/python_sqlite_tutorial.md)
 * Complete Example (Using Classes): [Example](python_sqlite_module/sqlite_example_using_classes.md)
 
-Give a star if you liked this content. :)
+
+* Give a 🌟 star if you liked this content. 😊
