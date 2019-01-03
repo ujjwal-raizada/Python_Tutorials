@@ -1,6 +1,6 @@
 ## Complete Example (Using Classes):
 
-employee.py
+### employee.py
 ```
 class Employee:
     """A sample Employee class"""
@@ -14,8 +14,7 @@ class Employee:
 		return "Employee('{}', '{}', {})".format(self.first, self.last, self.pay)
 ```
 
-<br>
-main.py
+### main.py
 ```
 import sqlite3
 from employee import Employee
@@ -72,8 +71,8 @@ emps = get_emps_by_name('Hahn')
 print(emps)
 
 conn.close()
-
 ```
+
 <br><br><br>
 
 
